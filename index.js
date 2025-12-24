@@ -1,8 +1,8 @@
 const { createClient } = require('bedrock-protocol')
 
 const client = createClient({
-  host: 'IP_DO_POCKETMINE',
-  port: 19132,
+  host: 'Voice-WD27.aternos.me',
+  port: 56379,
   username: 'VoiceBot',
   offline: true
 })
