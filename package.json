@@ -1,0 +1,12 @@
+{
+  "name": "voicebedtela-bot",
+  "version": "1.0.0",
+  "description": "Bot Bedrock simples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.37.0"
+  }
+}
