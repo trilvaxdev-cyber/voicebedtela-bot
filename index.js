@@ -1,13 +1,14 @@
 const { createClient } = require('bedrock-protocol')
 
 const client = createClient({
-  host: 'Voice-WD27.aternos.me',
-  port: 56379,
-  username: 'VoiceBot'
+  host: 'IP_DO_POCKETMINE',
+  port: 19132,
+  username: 'VoiceBot',
+  offline: true
 })
 
 client.on('join', () => {
-  console.log('✅ Bot entrou no servidor!')
+  console.log('✅ Bot entrou no PocketMine!')
 })
 
 client.on('disconnect', (packet) => {
