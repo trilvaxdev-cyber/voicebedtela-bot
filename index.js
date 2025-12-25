@@ -3,7 +3,7 @@ const { createClient } = require('bedrock-protocol')
 const client = createClient({
   host: process.env.MC_HOST || 'Voicechat.enderman.cloud',
   port: Number(process.env.MC_PORT) || 33298,
-  username: 'VoiceBot'
+  username: 'VoiceBot',
   auth: 'offline'
 })
 
