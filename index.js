@@ -1,8 +1,8 @@
 const { createClient } = require('bedrock-protocol')
 
 const client = createClient({
-  host: process.env.MC_HOST || 'bruxinhogamex_x-Wp4D.aternos.me',
-  port: Number(process.env.MC_PORT) || 33925,
+  host: process.env.MC_HOST || 'Voicechat.enderman.cloud',
+  port: Number(process.env.MC_PORT) || 33298,
   username: 'VoiceBot'
   auth: 'offline'
 })
