@@ -4,6 +4,7 @@ const client = createClient({
   host: process.env.MC_HOST || 'bruxinhogamex_x-Wp4D.aternos.me',
   port: Number(process.env.MC_PORT) || 33925,
   username: 'VoiceBot'
+  auth: 'offline'
 })
 
 client.on('join', () => {
